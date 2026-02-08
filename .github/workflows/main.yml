@@ -11,11 +11,11 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-		uses: Uoriou/hello-world-javascript-action
+        uses: Uoriou/hello-world-javascript-action
         with:
           who-to-greet: Mario
 
       # Use the output from the `hello` step
       - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }"
+        run: echo "The time was ${{ steps.hello.outputs.time }}"
 
