@@ -1,0 +1,29 @@
+{
+  "name": "hello-world-javascript-action",
+  "version": "1.0.0",
+  "description": "Github action in an action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uoriou/hello-world-javascript-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uoriou/hello-world-javascript-action/issues"
+  },
+  "homepage": "https://github.com/Uoriou/hello-world-javascript-action#readme",
+  "dependencies": {
+    "@actions/core": "^3.0.0",
+    "@actions/github": "^9.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "rollup": "^4.57.1"
+  }
+}
